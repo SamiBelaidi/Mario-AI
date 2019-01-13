@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="206" height="16" tilewidth="16" tileheight="16" nextobjectid="1">
+ <tileset firstgid="1" name="smb_tiles" tilewidth="16" tileheight="16" tilecount="228" columns="19">
+  <image source="smb_tiles_outside.png" width="304" height="192"/>
+ </tileset>
+ <tileset firstgid="229" name="52571" tilewidth="16" tileheight="16" tilecount="924" columns="33">
+  <image source="smb_tiles_2.png" width="528" height="448"/>
+ </tileset>
+ <layer name="Flag" width="206" height="16" visible="0">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3TsQ0AIAwEsTRI7D8xM3wVEtkTXHNVAAAA/7jdATDQ6Q6AgXwDOd9AzjeQ8w3kfAM530DON5DzDQDAPg877TCCgDMAAA==
+  </data>
+ </layer>
+ <layer name="Block" width="206" height="16" visible="0">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3XSwqAMAwFwELvf2c3rkJjP9QiOANiKcS6eFFSCgAAAAAAf1XvCxhTwx14VpM10Bb7RN9wyur3Os4TpzPbOk/fcEIr+yPZa80TJ+fy7Bx9w9uy7Me9rG6ldofRd4PdetmP62xvpnaH3nNn/pUA8FUXZ0oZAIAzAAA=
+  </data>
+ </layer>
+ <layer name="Tuyaux" width="206" height="16" visible="0">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3W0QkAIAgFwOapGWr/sWqEooKkO/BP/NEHpgQAAAAAAAAA8LY8qlzohahm7ryOapPzVnrhRacyITfx7fwBv/0QpzIhN/Ht7MVOAfhJB94AfoWAMwAA
+  </data>
+ </layer>
+ <layer name="Surprise" width="206" height="16" visible="0">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3WsQkAMAgEQPffWcgCwSYEg7mrBBt9LIwAAAAAALpk9wAPO8lGrgDAL/w9dNjdXRa9KW7tVuVZ1dNM3g0AAACYYQEzj3pMgDMAAA==
+  </data>
+ </layer>
+ <layer name="Ground" width="206" height="16" visible="0">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3Zuw3AIAwFQFZi/+VSpTSNCZHxnWTR8PMTHWMAAAAAAHxrLiqad9Lq3D/uAwAAlcxgvEm2t2jdrqyqZ37z2wEA4IzVP0S3ymbSPdfOvXeuV3Z9Zo/K1an3B5FFnsOAMwAA
+  </data>
+ </layer>
+ <layer name="Background" width="206" height="16" visible="0">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+2YW0/DMAyFLfWR18HLJHjkVgbjkftl/P+/hCMayTJJ6jROuq229IluS9yTk5xVrAeAPsCDMjV6GsZchDJjZ9ww0lhuDo9L5Aq5Vuyl1a+lfk0fcinNjYZ2vnctc1tDf21dT8gz8pKpLdTP95L20/BRon9Md64PIWCifsdYbsb6pbRL1h7aO43cSH0Y874XrEPr7GmeiZA2TX219LbUDYX6U7kp8aPVntXcx37mdRj1gML5mv/flGo5FFKVGtfK19Q9S7XsO9L1lXpgvwsYx4KrbvgrGVtyL8uNcQy46sByU9vjuTUYuvvZQXluzglj82O/qaXyxO8Zqlr+SHtr6yhdW2xerCcIriX9p+jL6cX1T9HBK3duBzq52SFb5Ecw3+VhDfWeN9JM3iC3Qn/963XG2H0ipXsOuFcx77huV/yctvTd31+Sm5B2+to9Y04IqWeOO693yAa5n6Bbuv+STLwibwKfQKjbV6l2Lfz3Qwu/p5w9SLwX0u3HjM3l2iHwWY5WgP/3T+Um5jnXsB24INcx79+RD+QT+UK+I3pXyOnAGZsbmrMi46SZ4GNW7H7UN4lu6jHXn6N9CiHtOX630uyKnjXfh7/PddPPY7nx73vtm0E7sPE52mnFMsP1xDynY2huHsk1Pet8rtVfhfZmyvyl+rrktS+5LDdltaS1/wIVPA8bgDMAAA==
+  </data>
+ </layer>
+ <layer name="DyingSpot" width="206" height="16">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3TsQ0AQAgCQEf6/af7xg2oDHcJpSQUzgAAAAAAAAAAAAAAcN3bpPdJx2XN25v5m0zT9g8v9gRJgDMAAA==
+  </data>
+ </layer>
+</map>

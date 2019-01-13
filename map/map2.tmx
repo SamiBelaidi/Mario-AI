@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="194" height="16" tilewidth="16" tileheight="16" backgroundcolor="#000000" nextobjectid="1">
+ <tileset firstgid="1" name="mario_tileset" tilewidth="16" tileheight="16" tilecount="228" columns="19">
+  <image source="smb_tiles_inside.png" width="304" height="192"/>
+ </tileset>
+ <tileset firstgid="229" name="52571" tilewidth="16" tileheight="16" tilecount="924" columns="33">
+  <image source="smb_tiles_2.png" trans="adadad" width="528" height="448"/>
+ </tileset>
+ <layer name="Porte" width="194" height="16">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3OAQ0AAAgDIKvYwf7ZjHHnIAFVAAAAAAAAAAAA8FOnA3DApAMAvLFC+QOTgDAAAA==
+  </data>
+ </layer>
+ <layer name="Ground" width="194" height="16">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3aQQqAIBRAwU9HEu9/tjYtghTJCjVm4BEtFBHdmSMi65NWNHrP9J/i9F3N6L3rKb0wBwAAAAAAAAAAzGCGty7e1lxtetT5PI1eS6l0VPu/O0+p1tiannVoztyD9tiame7BDkeNVOOAMAAA
+  </data>
+ </layer>
+ <layer name="Block" width="194" height="16">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3aQQqAIBCF4QncdB3p/mdrFcmQaYrm6P/B4MZF5Dw1SARIOxoUYA05AER8UOQAq+I8AMgB1vPWu/t2FznAzFrs/U8ZAkbWak/nPIAl5KAM98G5kIMysXfk1Agb9Bo6IQc5Uv2vRz2Ps2QsOgPhOtV8686+prn9H8tBTh7Qj87Al/2q1Z3Kgtz+Jwc26AyQA6De9V9SeKfyfz8U0JmP1EhOQ8ailoAwAAA=
+  </data>
+ </layer>
+ <layer name="breakable block" width="194" height="16">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+2XWxLDIAhF6Rq6E9P9r60/zUyGgKAi0siZuR9NSQTh5vEBgE8qlUoZC4TfXjlIrN4nKxWn/UqS8hPGy7OzOYDO7UiZCRasaS1uZi2eR9LeWe4fhqpxlt6vu2Y/J3Ft3L4UFH89fvazdn/wfP5HEMbCB5r1pPnufTda7YOaLPqk9QH3P76eFLeLMNo4ip5+Sn1s1apezvaBtiYqjjpv13nnhNHGUbSs9zQfWPajVpe2fnys93q7CKONo2hZb7UPvKHmkqoZx0bxgXWfoqnWLysfUKQP7u/x3Mxa+QDQMSq3J/qgB65m7bnWPhjJPbIPat+zmjlsmc/aedL1I3LmVhhZ+aB3btIH9dws5H0fjkjrfoyu0eMDab61Sh+kDzh28cE1j9bcn+4Db0XEwwej+UXxQTJOVB8kiSfpg//nC+HShLeAMAAA
+  </data>
+ </layer>
+ <layer name="Tuyaux" width="194" height="16">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3YPQ6AIAyG4Z5HN+Kqh1CvoN7/BnYhwR9IGAxI3yfpAC5a+iWqCGoyUNmFtn09GzXPEbMOAAiNWlPpmwAKIwcAOYBt/vuYHMDyf0dyAI8c5OWghefGk+UczFqL1irkwLrY+XVafeJ6C2e9ae1ah5AD62Lz7t8VOOune89Sa/xDbN5j+2+5sebem9Qa/5Cbg7d9a8IeuGDt5NojV+oGAQBVOwFCYn3EgDAAAA==
+  </data>
+ </layer>
+ <layer name="Surprise" width="194" height="16">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3ZOwqAMBAFQM8k3v9mAUlho4IYyG8zA1tYKA+TV2i2LYaj0YycbbWhrho9WI29CnrAU+odoAM9AD2ATA9ADyCL2oPR/guv+O05Ez34fkYqvL+VK9/9eoRss8jvbO8dooL0MqU9cE4YX9S1dN7NH/YC6AEAwKxO7b2aZYAwAAA=
+  </data>
+ </layer>
+ <layer name="Background" width="194" height="16" opacity="0.9">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+1Z4Q6GIAj0mVzv/2z9anMO4hQQLW67tUiQO63vW12llCuZTCaTR7Nu0EPyH6wNrWvvgp17S+wBz3tsF0Q/azyeXb02Ds8zjoo/eW9rFq3160Qx+zvVIlqrp2+Sn2ieNO4vXK0fhUX9aG89fJsZR+V90aPotRnxE8XKnk4gqokaR+V90aOTiMKifrTWtx4pL9prnC5UPzXfTD1p3aK9PJUoLOpHaBsZV4QYpQvVL3ky6hGH6P3kvZ4UNO9YR2Exz2xf1nMg+VJNqsc3oPNpfPDad+j4ytBjLgtS7+8kaL300FiE4wp/veuvIKdhRpsmpwgxC41acDrR8zZmoQk5cuNX7KGTyGkYjc/40cNboxacTvS8jWm0jBy5vCS9R7Rx6RqyN701akHpbP9f1e56f57QwWNNLdF/L+e+n6N1KI72oOkjsSfyPvDNXYUbe7yfIoAwAAA=
+  </data>
+ </layer>
+</map>
